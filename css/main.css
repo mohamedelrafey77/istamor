@@ -1,0 +1,168 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* start css to the navbar */
+nav{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+}
+nav img{
+    width: 100px;
+    height: auto;
+}
+/* start css to the header section */
+header{
+    background:url("../img/slider-bg_2000x.webp") center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 25px 0px;
+    margin-top: 0;
+    text-align: center;
+}
+header .row{
+    margin: 70px 0px;
+}
+header h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    margin: 50px 0px;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+}
+/* start css to the products section */
+.products{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 25px 0px;
+    margin: 50px 0px;
+}
+.products h2{
+    text-align: center;
+    margin: 20px 0px;
+    font-family: 'Tajawal', sans-serif;
+    text-transform: uppercase;
+    color: #000;
+}
+.products .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 20px 0px;
+    font-family: 'Tajawal', sans-serif;
+}
+.products .box h4{
+    color: #000;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+.products .box span{
+    color: #911578;
+}
+.products .box p{
+    color: #777;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+.products .box ul{
+    padding: 0px;
+}
+.products .box ul li{
+    list-style: none;
+    margin: 7px 0px;
+    font-size: 17px;
+}
+.products .box .carousel{
+    border: 2px solid #911578;
+}
+.products .box .carousel button span{
+    background-color: #911578;
+}
+.products .box button.btn{
+    width: 140px;
+    height: 40px;
+    background-color: #911578;
+    border: 1px solid #911578;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.products .box button.btn:hover{
+    background-color: transparent;
+    color: #911578;
+    transition: .3s ease-in-out;
+}
+iframe{
+    width: 450px;
+    height: 300px;
+    max-width: 100%;
+}
+/* start css to the footer */
+footer{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: auto;
+    border: 1px solid #f7f7f7;
+    overflow: hidden;
+    margin-top: 50px;
+    padding: 25px 0px;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    margin: 30px 0px;
+}
+footer h3{
+    font-family: 'Tajawal';
+    margin: 10px 0px;
+    color: #000;
+}
+footer ul{
+    padding: 0;
+    margin: 15px 0px;
+}
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #911578;
+    border: 1px solid #911578;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+}
+footer ul li a{
+    color: #fff;
+    line-height: 40px;
+    display: block;
+}
+footer hr{
+    margin: 50px 0px;
+}
+footer span{
+    color: #333;
+    font-size: 16px;
+}
